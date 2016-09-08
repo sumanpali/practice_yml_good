@@ -4,7 +4,7 @@ class ExpediaHomePage
   page_url 'https://www.expedia.com/'
 
   a(:flight_tab, :id => 'tab-flight-tab')
-  label(:oneway_tab, :id => 'flight-type-one-way-label')
+  element :oneway_tab, :element, :id => 'flight-type-one-way-label'
   text_field(:flight_origin, :id => 'flight-origin')
   text_field(:flight_destination, :id => 'flight-destination')
   text_field(:flight_departing, :id => 'flight-departing')
