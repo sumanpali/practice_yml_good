@@ -17,7 +17,7 @@ class ExpediaHomePage
 def select_flight_origin (city_name, airport_code)
   self.flight_origin = city_name
   self.flight_origin_element.send_keys :end
-  list_of_cities_element.when_present.list_item_elements.each do |airport_name|
+  list_of_cities_element.list_item_elements.each do |airport_name|
        if(airport_name.text.include?airport_code)
           airport_name.click
        end
