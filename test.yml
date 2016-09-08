@@ -1,0 +1,6 @@
+dep_city_name:  'Los Angeles'
+dep_airport_code: 'LAX'
+arr_city_name:  'Dallas'
+arr_airport_code: 'DAL'
+dep_date: 2
+adults: 3
